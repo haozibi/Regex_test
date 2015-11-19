@@ -23,4 +23,4 @@ python3 + PyQt4 + ArchLinux
 **[Email:b@bzizi.com](mailto:b@bzizi.com)**
 
 ## 截图：
-![haozibi](http://i12.tietuku.com/ef07aa4e932df507t.jpg)
+![haozibi](http://i12.tietuku.com/ef07aa4e932df507s.png)
