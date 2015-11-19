@@ -21,7 +21,8 @@ class StartQt4(QtGui.QMainWindow):
         self.ui.setupUi(self)
         # here we connect signals with our slots
         QtCore.QObject.connect(self.ui.button_ok,QtCore.SIGNAL('clicked()'),self.file_dialog)
-        
+       
+        QtCore.QObject.connect(self.ui.button_about,QtCore.SIGNAL('clicked()'),self.file_about)
 
     def file_dialog(self):
         list = []
@@ -45,6 +46,12 @@ class StartQt4(QtGui.QMainWindow):
         self.ui.text_show.setText(str)
         print('OK')    
     
+    def file_about(self):
+        message = QtGui.QMessageBox(self)
+        message.setText('联系我Email：b@bzizi.com\r\n网站：www.bzizi.com')
+        message.setWindowTitle('About Me !')
+        message.setIcon(QtGui.QMessageBox.Question)
+        message.exec_()
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
