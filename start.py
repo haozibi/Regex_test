@@ -39,7 +39,8 @@ class StartQt4(QtGui.QMainWindow):
         # 利用 list2 把 list 列表中内容进行格式化
         for i in range(0,lens):
             tmp = '[{0}]：{1}\r\n'.format(i,list[i])
-            list2.append(tmp)
+            #list2.append(tmp)
+            list2 += tmp
         
         
         str = ''.join(list2)
