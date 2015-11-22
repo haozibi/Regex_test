@@ -69,7 +69,7 @@ class StartQt4(QtGui.QMainWindow):
     
     def file_about(self):
         message = QtGui.QMessageBox(self)
-        message.setText('联系我Email：b@bzizi.com\r\n网站：www.bzizi.com')
+        message.setText('联系我:\r\nEmail：b@bzizi.com\r\n网站：www.bzizi.com')
         message.setWindowTitle('About Me !')
         message.setIcon(QtGui.QMessageBox.Question)
         message.exec_()
