@@ -19,9 +19,12 @@ python3 + PyQt4 + ArchLinux
 ## PS:
 * 只在archlinux + python3 + pyqt4 环境下测试过(周围没有其他linux OS)
 * 过几天在进行优化
-* 暂时不了解开源协议，所以暂时没弄，但是希望大家可以尊重我的劳动成果
+* 希望大家可以尊重我的劳动成果
 * 有任何问题请及时联系我
 
+## License
+
+**GPL**
 
 ## 联系我：
 **[Email:b@bzizi.com](mailto:b@bzizi.com)**
